@@ -1,0 +1,96 @@
+/*formulario*/
+body {
+    background-color: rgb(228, 202, 253);
+}
+
+.container{ /*cuadrado*/
+    display: flex;
+    background-color: white;
+    height: 850px;
+    width: 1000px;
+    box-shadow: 0 0 20px black;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 25px; /*redondear esquinas*/
+    }
+
+.form{
+    padding: 30px 80px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1{
+    color:rgb(52, 18, 83);
+    margin-bottom: 25px;
+}
+
+.form p{
+    color:rgb(0, 0, 0);
+    margin-bottom: 25px; /*separacion entre info*/
+}
+
+label{
+    color:rgb(52, 18, 83);
+    margin-bottom: 15px;
+}
+.box{
+    border: 0;
+    background-color: #d8d3e7;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    outline: none; /*saca el estilo,para que no tenga un marco negro las casillas para escribir*/
+}
+
+.submit{
+    background-color: #cac4dd;
+    border: 0;
+    padding: 15px;
+    color: rgb(61, 58, 63);
+    border-radius: 25px;
+    width: 250px;
+    margin-top: 25px;
+    box-shadow: 0 0 20px #cac4dd;
+}
+
+.info{
+    padding: 100px;
+}
+
+.img-1{
+    width: 350px;
+}
+
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+}
+.icons img{
+    width: 70px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+@media (max-width:990px){
+    .container{
+        width: 350px;
+        height: 800px;
+        margin-top: 50px;
+    }
+
+    .info{
+        display: none;
+    }
+    .form{
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+

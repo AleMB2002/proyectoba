@@ -1,0 +1,37 @@
+body{
+    font-family:'Courier New', Courier, monospace
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: hsl(295, 71%, 90%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logoImg{
+    height: 100px;
+    margin-right: 10px;
+}
+
+nav a{
+    padding-right: 10px;
+}
+
+nav a:hover{ /*cambia de color el texto cuando el cursor de pone arriba*/
+    color: rgb(243, 149, 223);
+}
+
+
+
+
+
+
+
