@@ -5,7 +5,7 @@ body{
 header{
     display: flex;
     height: 70px;
-    background-color: hsl(295, 71%, 90%);
+    background-color: hsl(294, 100%, 96%);
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -28,14 +28,3 @@ nav a{
 nav a:hover{ /*cambia de color el texto cuando el cursor de pone arriba*/
     color: rgb(243, 149, 223);
 }
-
-.imagenPagina{
-    display: flex;
-    align-items: center;
-}
-
-
-
-
-
-
