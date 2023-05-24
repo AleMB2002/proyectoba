@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
+        <script src="../scripts/script.js"></script>
         <title>Litte Kitten</title>
     </head>
     <body>
@@ -19,16 +20,36 @@
                 <a href="./pages/cursos.html" target="_blank">Cursos</a>
             </nav>
         </header>
-    <section>
-        <img src="./images/intentp2.jpg" alt="imagen portada"  class="imagenPagina">
-        <div class="precios">
+        <br>
+        <section>
+            <div class="container-slider">
+                <div class="slider" id="slider">
+                    <div class="slider__section"> <!--averiguar si sin el guion bajo funciona y porque es guion bajo-->
+                        <img src="./images/carrusel1.jpg" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__section">
+                        <img src="./images/intento2.jpg" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__section">
+                        <img src="./images/intento3.jpg" alt="" class="slider__img">
+                    </div>
+                    <div class="slider__section">
+                        <img src="./images/intento4.jpg" alt="" class="slider__img">
+                    </div>
+            </div>
+        <span>
+            <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div> <!--el &#60 son los iconos de mayor y menor para mover las fotos-->
+            <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+        </span>
+        </div>
+        </section>
+        <br>
+        <div>
             <h1>Nuestros trabajos</h1>
             <p>
                 Aca van a poder ver que servicios ofrecemos
             </p>
         </div>
-    </section>
-
     <div>
         <ul>
             <li>Belleza de manos</li>
@@ -76,9 +97,9 @@
             </div>
         </li>
     </ul>
-        <div class="#" >
+        <a href="">
             <h4>Nosotros</h4>
             <P>Somos un pequeño emprendimiento en crecimiento de dos amigas que son estudiantes y querian trabajar de lo que les gusta, una de ellas es Caro, estudia Artes en la Facultad, y la otra (me presento) Alejandra, estudia para ser Biologa, somos amigas hace unos años y decidimos emprender este camino juntas, esperamos seguir creciendo con ustedes ¡y que salgan contentas con sus uñas! </P>
-        </div>
+        </a>
     </body>
 </html>
