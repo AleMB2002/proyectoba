@@ -11,3 +11,5 @@ Empece con la idea de la segunda pagina dentro de la misma, el tema sería el cu
 ** 21/5 **
 Arme la estructura del contenido principal, también de la segunda página donde voy a poner los cursos, me falta ponerle estilos y acomodarlos. También quiero que la segunda página tenga un menu desplegable donde voy a poner fotos y videos de los procedimientos. 
 
+** 24/5 **
+Hice un intento de carrusel en la pagina principal y cree el archivo con JavaScript
