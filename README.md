@@ -13,3 +13,6 @@ Arme la estructura del contenido principal, también de la segunda página donde
 
 ** 24/5 **
 Hice un intento de carrusel en la pagina principal y cree el archivo con JavaScript
+
+** 27/5 **
+Termine la página principal, agregando constante para hacer un carrusel/slider de imagenes infinito, ademas de ocultar y mostrar informacion y agregar un footer.

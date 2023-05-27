@@ -1,0 +1,12 @@
+{
+  "name": "proyectoba",
+  "version": "1.0.0",
+  "description": "Esta página va a tratar de un emprendimiento informal de uñas, todavía en crecimiento.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
