@@ -1,9 +1,8 @@
-/*formulario*/
 body {
     background-color: rgb(228, 202, 253);
 }
 
-.container{ /*cuadrado*/
+.container{ 
     display: flex;
     background-color: white;
     height: 850px;
@@ -11,7 +10,7 @@ body {
     box-shadow: 0 0 20px black;
     margin: auto;
     margin-top: 100px;
-    border-radius: 25px; /*redondear esquinas*/
+    border-radius: 25px; 
     }
 
 .form{
@@ -28,7 +27,7 @@ body {
 
 .form p{
     color:rgb(0, 0, 0);
-    margin-bottom: 25px; /*separacion entre info*/
+    margin-bottom: 25px; 
 }
 
 label{
@@ -41,7 +40,7 @@ label{
     padding: 15px;
     border-radius: 25px;
     margin-bottom: 25px;
-    outline: none; /*saca el estilo,para que no tenga un marco negro las casillas para escribir*/
+    outline: none; 
 }
 
 .submit{

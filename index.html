@@ -4,8 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/pagina.css">
         <script src="../scripts/script.js"></script>
+        <script src="https://kit.fontawesome.com/0d6d2382a3.js" crossorigin="anonymous"></script>
         <title>Litte Kitten</title>
     </head>
     <body>
@@ -15,7 +16,7 @@
                 <h1 class="nombre"> Little Kitten nail's</h1>
             </div>
             <nav>
-                <a href="">Nosotros</a> <!--averiguar como llamar en la misma página-->
+                <a href="#nosotros">Nosotros</a> 
                 <a href="./pages/formulario.html" target="_blank">Contacto</a>
                 <a href="./pages/cursos.html" target="_blank">Cursos</a>
             </nav>
@@ -24,7 +25,7 @@
         <section>
             <div class="container-slider">
                 <div class="slider" id="slider">
-                    <div class="slider__section"> <!--averiguar si sin el guion bajo funciona y porque es guion bajo-->
+                    <div class="slider__section"> 
                         <img src="./images/carrusel1.jpg" alt="" class="slider__img">
                     </div>
                     <div class="slider__section">
@@ -38,69 +39,96 @@
                     </div>
             </div>
                 <span>
-                    <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div> <!--el &#60 son los iconos de mayor y menor para mover las fotos-->
+                    <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
                     <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
                 </span>
             </div>
         </section>
         <br>
-            <main class="main">
-                <section class="welcome">
-                    <h1>Nuestros trabajos</h1>
-                    <p >Aca van a poder ver que servicios ofrecemos, mas los precios y cualquier consulta pueden escribirlo en el formulario que dejamos en la página, y en menos de 24 horas te estaremos respodiendo, pedimos que sus consultan sean claras asi no tardaremos en darles una respuesta.</p>
-                    <a href="" class="welcomeBoton">READ MORE</a>
-                </section>
-            </main>
-    <div>
-        <ul>
-            <li>Belleza de manos</li>
-            <li>Soft gel</li>
-            <li>Encapsulado/baby boomer</li>
-            <li>Sevice de soft gel</li>
-            <li>Flores 3D por uña</li>
-            <li>Capping en acrilico</li>
-            <li>Esculpidas en acrilico</li>
-            <li>Esculidas en gel</li>
-            <li>Sevice de esculpidas en acrilico</li>
-            <li>Retiro capping/esculpidas</li>
-        </ul>
+        <div>
+                <h2>Nuestros trabajos</h2>
+                <p class="textoTrabajo">Aca van a poder ver que servicios ofrecemos, mas los precios y cualquier consulta pueden escribirlo en el formulario que dejamos en la página, y en menos de 24 horas te estaremos respodiendo, pedimos que sus consultas sean claras asi no tardaremos en darles una respuesta.</p>
+        <main class="grid-layout">
+            <div class="caja">
+                Belleza de manos
+            </div>
+            <div class="caja">
+                Soft gel
+            </div>
+            <div class="caja">
+                Encapsulado
+            </div>
+            <div class="caja">
+                Sevice de soft gel
+            </div>
+            <div  class="caja">
+                Flores 3D por uña
+            </div>
+            <div  class="caja">
+                Capping en acrilico
+            </div>
+            <div  class="caja">
+                Esculpidas en acrilico
+            </div>
+            <div class="caja">
+                Esculpidas en gel
+            </div>
+            <div class="caja">
+                Sevice de esculpidas en acrilico
+            </div>
+            <div class="caja">
+                Retiro capping
+            </div>
     </div>
-    <h2>Little Kitten Nail's - balvanera</h2>
+
     <div>
-        <h3>Días y horarios de atención</h3>
+        <h2>Días y horarios de atención</h2>
     </div>
-    <ul>
-        <li>
-            <div>
-                <span>Lunes</span>
-                <span class=""></span>
-                <span>10:00 - 19:30</span>
+
+            <div class="textoHorarios">
+                <span>Lunes 10:00 - 19:30 </span>
+                <br>
+                <span> Martes y Viernes 8:30 - 19:30</span>
+                <br>
+                <span>Sábado 10:00 - 19:00</span>
+                <br>
+                <span>Domingo CERRADO</span>
             </div>
-        </li>
-        <li>
-            <div>
-                <span> Martes y Viernes</span>
-                <span class=""></span>
-                <span>8:30 - 19:30</span>
-            </div>
-        </li>
-        <li>
-            <div>
-                <span>Sábado</span>
-                <span> 10:00 - 19:00</span>
-            </div>
-        </li>
-        <li>
-            <div>
-                <span>Domingo</span>
-                <span class=""></span>
-            <span>CERRADO</span>
-            </div>
-        </li>
-    </ul>
-        <a href="">
-            <h4>Nosotros</h4>
-            <P>Somos un pequeño emprendimiento en crecimiento de dos amigas que son estudiantes y querian trabajar de lo que les gusta, una de ellas es Caro, estudia Artes en la Facultad, y la otra (me presento) Alejandra, estudia para ser Biologa, somos amigas hace unos años y decidimos emprender este camino juntas, esperamos seguir creciendo con ustedes ¡y que salgan contentas con sus uñas! </P>
+        <br>
+        <a id="nosotros">
+            <h2>Nosotros</h2>
+            <P class="textoNosotros">Somos un pequeño emprendimiento en crecimiento de dos amigas que son estudiantes y querian trabajar de lo que les gusta, una de ellas es Caro, estudia Artes en la Facultad, y la otra (me presento) Alejandra, estudia para ser Biologa, somos amigas hace unos años y decidimos emprender este camino juntas, esperamos seguir creciendo con ustedes ¡y que salgan contentas con sus uñas! Les dejamos un pequeño recorrido por nuestro local.</P>
         </a>
+            <br>
+            <div class="videoYoutube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SMLD5MKP1oc?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+            <br>
+            </div>
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="./images/imagenlogo.png" alt="logo pagina">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>HISTORIA</h2>
+                    <p>Les quiero contar porque elegí este logo para la página, es por mi gata que se llama Violeta y es mi compañera de vida desde que tengo 12 años, soy conciente de que no tenemos mucho tiempo juntas ahora en adelante,pero esoy agradecida con ella por todo lo que me acompaño, y me gusta rendirle honor en cada cosa que hago.</p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+                <div class="grupo-2">
+                    <small>&copy; 2023 <b> Kitten Nails</b> - Todos los Derechos Reservados.</small>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

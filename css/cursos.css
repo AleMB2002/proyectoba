@@ -1,0 +1,168 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: hsl(294, 100%, 96%);
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logoImg{
+    height: 100px;
+    width: 80px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+nav a{
+    padding-right: 10px;
+}
+
+nav a:hover{ 
+    color: rgb(232, 108, 205);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.card{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+img{
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+}
+
+.intro{
+    height: 100px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 70px;
+    background: rgb(27,27,27, .5);
+    color: white;
+    transition: .5s;
+}
+
+h1{
+    margin: 10px;
+    font-size: 25px;
+}
+
+p{
+    font-size: 15px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+span{
+    font-weight: bold;
+}
+
+.card:hover{
+    cursor: pointer;
+
+}
+
+.card:hover .intro{
+    height: 320px;
+    bottom: 40px;
+    background: black;
+}
+
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+.pie-pagina{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(217, 151, 216);
+    margin-top: 100px;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    padding: 30px;
+    
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 150px;
+    height: 200px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: rgb(242, 235, 235);
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.pie-pagina .grupo-1 .box small{
+    color: #111010;
+    margin-bottom: 10px;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    margin-right: 40px;
+    margin-left: 5px;
+    margin-top: 20px;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: black;
+}
+
+.pie-pagina .grupo-2{
+    background-color: rgb(233, 204, 249);
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 15px;
+}

@@ -16,3 +16,9 @@ Hice un intento de carrusel en la pagina principal y cree el archivo con JavaScr
 
 ** 27/5 **
 Termine la página principal, agregando constante para hacer un carrusel/slider de imagenes infinito, ademas de ocultar y mostrar informacion y agregar un footer.
+
+** 28/7 **
+Termine la segunda pagina con los cursos agregando unas fichas como si fueran cartas en el medio como informacion principal.
+
+** 2/6 **
+Tengo que arreglar el slide de las fotos con JS en la pagina principal y arreglar formulario para que funcione el boton de enviar.
