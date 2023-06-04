@@ -5,16 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/pagina.css">
-        <script src="../scripts/script.js"></script>
         <script src="https://kit.fontawesome.com/0d6d2382a3.js" crossorigin="anonymous"></script>
         <title>Litte Kitten</title>
     </head>
     <body>
         <header>
-            <div class="logo">
+            <nav class="logo">
                 <img src="./images/imagenlogo.png" alt="Foto de un gatito" class="logoImg">
                 <h1 class="nombre"> Little Kitten nail's</h1>
-            </div>
+            </nav>
             <nav>
                 <a href="#nosotros">Nosotros</a> 
                 <a href="./pages/formulario.html" target="_blank">Contacto</a>
@@ -80,31 +79,23 @@
                 Retiro capping
             </div>
     </div>
-
-    <div>
+    <br>
         <h2>Días y horarios de atención</h2>
-    </div>
-
-            <div class="textoHorarios">
-                <span>Lunes 10:00 - 19:30 </span>
-                <br>
-                <span> Martes y Viernes 8:30 - 19:30</span>
-                <br>
-                <span>Sábado 10:00 - 19:00</span>
-                <br>
-                <span>Domingo CERRADO</span>
-            </div>
+            <ul class="textoHorarios">
+                <li>Lunes 10:00 - 19:30 </li>
+                <li> Martes y Viernes 8:30 - 19:30</li>
+                <li>Sábado 10:00 - 19:00</li>
+                <li>Domingo CERRADO</li>
+            </ul>
         <br>
         <a id="nosotros">
             <h2>Nosotros</h2>
-            <P class="textoNosotros">Somos un pequeño emprendimiento en crecimiento de dos amigas que son estudiantes y querian trabajar de lo que les gusta, una de ellas es Caro, estudia Artes en la Facultad, y la otra (me presento) Alejandra, estudia para ser Biologa, somos amigas hace unos años y decidimos emprender este camino juntas, esperamos seguir creciendo con ustedes ¡y que salgan contentas con sus uñas! Les dejamos un pequeño recorrido por nuestro local.</P>
+            <nav class="textoNosotros">Somos un pequeño emprendimiento en crecimiento de dos amigas que son estudiantes y querian trabajar de lo que les gusta, una de ellas es Caro, estudia Artes en la Facultad, y la otra (me presento) Alejandra, estudia para ser Biologa, somos amigas hace unos años y decidimos emprender este camino juntas, esperamos seguir creciendo con ustedes ¡y que salgan contentas con sus uñas! Les dejamos un pequeño recorrido por nuestro local.</nav>
         </a>
             <br>
-            <div class="videoYoutube">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/SMLD5MKP1oc?mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-                </iframe>
-            <br>
-            </div>
+            <aside class="audio">
+                <audio src="./images/musica.mp3" controls="autoplay"></audio>
+            </aside>
         <footer class="pie-pagina">
             <div class="grupo-1">
                 <div class="box">
@@ -130,5 +121,6 @@
                 </div>
             </div>
         </footer>
+        <script src="../scripts/script.js"></script>
     </body>
 </html>

@@ -7,7 +7,7 @@ let sliderSectionLast = sliderSection [sliderSection.leght -1];
 const btnLeft = document.querySelector ("#btn-left");
 const btnRight= document.querySelector ("#btn-right");
 
-slider.insertAdjacentElement('afterbegin', sliderSectionLast); /*PREGUNTAR A RO PORQUE LA CONSOLA NO ME ACEPTA ESTE METODO Y PORQUE NO DEJA IR PARA LA DER4CHA */
+slider.insertAdjacentElement('afterbegin', sliderSectionLast);
 
 function moverDerecha() {
     let sliderSectionFirst = document.querySelectorAll (".slider__section")[0];
