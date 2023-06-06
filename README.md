@@ -22,3 +22,6 @@ Termine la segunda pagina con los cursos agregando unas fichas como si fueran ca
 
 ** 2/6 **
 Tengo que arreglar el slide de las fotos con JS en la pagina principal y arreglar formulario para que funcione el boton de enviar.
+
+** 6/6 **
+Ultimos arreglos de las paginas mas agregar media query y agregar JS al formulario.
