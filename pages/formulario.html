@@ -21,10 +21,12 @@
                 <label for="correo">Escribe tu correo</label>
                 <input type="email" id="correo" class="box">
 
-                <label for="mensaje">Escribe tu mensaje</label>
-                <textarea class="box" id="mensaje" cols="30" rows="10">Escribe tu consulta</textarea>
+                <label for="consulta">Escribe tu consulta</label>
+                <input placeholder="Escribe tu consulta" id="mensaje" class="box" cols="30" rows="10">
 
-                <input type="submit" value="enviar" class="submit">
+                <input type="button" id="boton" value="enviar" onclick="pres()">
+
+
             </form>
             <div class="info">
                     <img src="../images/kuromiform.png" class="img-1" alt="kuromiFoto">
@@ -44,5 +46,6 @@
                 </div>
             </div>
         </div>
+        <script src="../scripts/script.js"></script>
     </body>
 </html>

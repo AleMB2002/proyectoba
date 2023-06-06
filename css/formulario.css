@@ -31,19 +31,25 @@ body {
 }
 
 label{
-    color:rgb(52, 18, 83);
+    color:rgb(29, 19, 38);
     margin-bottom: 15px;
 }
 .box{
     border: 0;
-    background-color: #d8d3e7;
+    background-color: #aa9dd3;
     padding: 15px;
     border-radius: 25px;
     margin-bottom: 25px;
     outline: none; 
 }
 
-.submit{
+input::placeholder{
+    color: azure;
+    font: 12px;
+    font-style: italic;
+}
+
+input{
     background-color: #cac4dd;
     border: 0;
     padding: 15px;
@@ -52,6 +58,7 @@ label{
     width: 250px;
     margin-top: 25px;
     box-shadow: 0 0 20px #cac4dd;
+    cursor: pointer;
 }
 
 .info{

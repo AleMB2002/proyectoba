@@ -1,5 +1,6 @@
 body{
     font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
 }
 
 a {
@@ -8,7 +9,7 @@ a {
 
 header{
     display: flex;
-    height: 70px;
+    height: 100%;
     background-color: hsl(294, 100%, 96%);
     justify-content: space-between;
     align-items: center;
@@ -40,57 +41,19 @@ nav a:hover{
 } 
 
 .container-slider{
-    width: 90%;
-    max-width: 900px;
+    width: 100%;
+    max-width: 100%;
     margin: auto;
     overflow: hidden;
     box-shadow: 0 0 0 10px #f4e0f9, 0 15px 50px; 
     position: relative;
 }
 
-.slider{ 
-    display: flex;
-    width: 400%; 
-    height: 400px;
-    margin-left: -100%;
-
-}
-
-.slider__section{
-    width: 100%;
-}
-
 .slider__img{
     display: block;
     width: 100%;
-    height: 100%;
+    height: 500px;
     object-fit: cover; 
-}
-
-.slider__btn{ 
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: rgba(255, 255, 255,0.7);
-    top: 50%; 
-    transform: translateY(-50%); 
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.slider__btn:hover{
-    background: #fff; 
-}
-
-.slider__btn--left{
-    left: 10px;
-}
-
-.slider__btn--right{
-    right: 10px;
 }
 
 .main{
@@ -152,9 +115,10 @@ h2{
 
 .pie-pagina{
     width: 100%;
-    height: 400px;
+    height: 50%;
     background-color: rgb(217, 151, 216);
-    margin-top: 100px;
+    margin-top: 30px;
+    padding: 5px;
 }
 
 .pie-pagina .grupo-1{
@@ -164,21 +128,21 @@ h2{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     grid-gap: 60px;
-    padding: 30px;
+    padding: 5px;
     
 }
 
 .pie-pagina .grupo-1 .box figure{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 250px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
 .pie-pagina .grupo-1 .box figure img{
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 200px;
 }
 
 .pie-pagina .grupo-1 .box h2{
@@ -214,5 +178,39 @@ h2{
     background-color: rgb(233, 204, 249);
     padding: 15px 10px;
     text-align: center;
+    font-size: 10px;
+}
+
+.pie-pagina .grupo-2 small{
     font-size: 15px;
 }
+
+button{
+    background-color: #b979ca;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px black;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+button:hover{
+    color: rgb(21, 13, 20);
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+
+    .caja{
+        width: 100%;
+        height:90%;
+    }
+}
+
