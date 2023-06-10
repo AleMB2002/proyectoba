@@ -61,6 +61,15 @@ input{
     cursor: pointer;
 }
 
+button{
+    background-color: #cac4dd;
+    padding: 15px;
+    color: rgb(61, 58, 63);
+    border-radius: 25px;
+    width: 150px;
+    box-shadow: 0 0 20px #cac4dd;
+    cursor: pointer;
+}
 .info{
     padding: 100px;
 }
