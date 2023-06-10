@@ -1,9 +1,8 @@
-let confirmar = confirm ("¿desea enviar el formulario?")
-console.log(confirmar)
-
-if(confirmar){
-    alert("formulario enviado")
-}
-else{
-    alert("formulario cancelado")
+document.getElementById("boton").onclick = function(){
+    if(confirmar){
+        alert("formulario enviado");
+    }
+    else{
+        alert("formulario cancelado");
+    }
 }

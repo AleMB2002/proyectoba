@@ -25,3 +25,7 @@ Tengo que arreglar el slide de las fotos con JS en la pagina principal y arregla
 
 ** 6/6 **
 Ultimos arreglos de las paginas mas agregar media query y agregar JS al formulario.
+
+** 10/6 **
+
+Todo listo en las paginas principales, agregue un alert con confirm.
